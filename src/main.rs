@@ -46,7 +46,6 @@ struct Pendulum {
     angular_acceleration: f32,
 
     r: f32, // Lenght of the pendulum
-    m: f32, // Mass of the ball
     g: f32, // Gravity
 }
 
@@ -59,7 +58,6 @@ impl Pendulum {
             angular_velocity: 0.0,
             angular_acceleration: 0.0,
             r,
-            m: 1.0,
             g: 1.5,
         }
     }
